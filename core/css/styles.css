@@ -25,6 +25,11 @@
 	background-color: #745bca;
 }
 
+#body {
+    background-color: #0082c9;
+    background-image: url('../img/background.jpg?v=1');
+}
+
 /* log in screen background color */
 /* gradient of the header color and a brighter shade */
 /* can also be a flat color or an image */
