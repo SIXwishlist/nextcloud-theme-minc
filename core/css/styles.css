@@ -39,6 +39,11 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#947bea', endColorstr='#745bca',GradientType=0 ); /* IE6-9 */
 }
 
+#body-login, #firstrunwizard .firstrunwizard-header, #theming-preview {
+  background-color: #0082c9;
+/*  background-image: url("../img/background.jpg");*/
+}
+
 /* primary action button, use sparingly */
 /* header color as border, brighter shade again, here as background */
 .primary,
@@ -80,7 +85,13 @@ button.primary:focus,
 	height: 121px;
 }
 #header .logo-icon {
-	background-image: url('../img/logo-icon.svg');
+	background-image: url('../img/logo.svg');
 	width: 62px;
 	height: 34px;
+}
+
+#header .logo img {
+    max-height: 200px;
+    max-width: 100%;
+    opacity: 0;
 }

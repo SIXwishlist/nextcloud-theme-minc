@@ -1,0 +1,7 @@
+#body-user #header, #body-settings #header, #body-public #header {
+    background-color: #0082c9;
+}
+
+#header .logo-icon {
+    background-image: url("../img/logo.png");
+}

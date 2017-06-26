@@ -65,7 +65,7 @@ h3 {
 	padding-top: 100px;
 }
 #header .logo {
-	background-image: url('../img/logo-icon.svg?v=1');
+	background-image: url('../img/logo.png');
 	background-repeat: no-repeat;
 	background-size: 175px;
 	background-position: center;
@@ -723,4 +723,23 @@ input.primary {
     background-color: #0db3fb !important;
     border: 1px solid #ffffff !important;
     color: #fff;
+}
+
+/* use logos from theme */
+#header .logo {
+	background-image: url('../img/logo.svg');
+	width: 250px;
+	height: 121px;
+	background-size: 100%;
+}
+#header .logo-icon {
+	background-image: url('../img/logo.svg');
+	width: 62px;
+	height: 34px;
+}
+
+#header .logo img {
+    max-height: 200px;
+    max-width: 100%;
+    opacity: 0;
 }
